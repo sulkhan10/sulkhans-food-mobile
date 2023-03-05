@@ -1,0 +1,28 @@
+services:
+    app-service:
+        build: ./services/app
+        container_name: app-service
+        environment:
+            PORT: 4002
+            NODE_ENV: "production"
+            DATABASE_URL: "postgresql://postgres:WPkGAqppZdv3RL4v@db.trqvuhvqxllkdrvgqpio.supabase.co:5432/postgres"
+        ports:
+            - "4002:4002"
+    user-service:
+        build: ./services/users
+        container_name: user-service
+        environment:
+            PORT: 4001
+            NODE_ENV: "production"
+        ports:
+            - "4001:4001"
+    orchestrator:
+        build: ./orchestrator
+        container_name: orchestrator
+        ports:
+            - "80:4000"
+        environment:
+            PORT: 4000
+            USER_API: "http://user-service:4001/users/"
+            ITEM_API: "http://app-service:4002/items/"
+            REDIS_PASSWORD: "Dp7OHiuXBYmB9DWKvumTR4wqxxgKexvp"

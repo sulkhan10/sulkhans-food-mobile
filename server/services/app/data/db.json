@@ -1,0 +1,97 @@
+{
+  "items": [
+    {
+      "name": "krabby patty",
+      "description": "makanan terenak di lautan",
+      "price": "9009",
+      "imgUrl": "https://i.pinimg.com/originals/f8/63/cd/f863cd50c189511ef161f8c6a525f3c7.jpg",
+      "authorId" : 3,
+      "categoryId" : 1,
+      "UserMongoId": "63fd271e4c7ad69fe0f71aaa"
+    },
+    {
+      "name": "krabby patty",
+      "description": "makanan terenak di lautan",
+      "price": "9900",
+      "imgUrl": "https://asset.kompas.com/crops/zXWZBzgTKrJKznN0Ewr-71bND1I=/0x0:1000x667/750x500/data/photo/2021/08/24/61244287293af.jpg",
+      "authorId" : 3,
+      "categoryId" : 1,
+      "UserMongoId": "63fd271e4c7ad69fe0f71aaa"
+    },
+    {
+      "name": "baso",
+      "description": "makanan terenak di daratan",
+      "price": "5500",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Bakso_mi_bihun.jpg",
+      "authorId" : 1,
+      "categoryId" : 1,
+      "UserMongoId": "63fd271e4c7ad69fe0f71aab"
+    },
+    {
+      "name": "bakmoi",
+      "description": "makanan terenak di daratan",
+      "price": "1553",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfR2EQGHRuf1SW4YTEpDs9_p8xciAW7n0rxSt21NS4&s",
+      "authorId" : 2,
+      "categoryId" : 3,
+      "UserMongoId": "63fd271e4c7ad69fe0f71aab"
+    },
+    {
+        "name": "klepon",
+        "description": "makanan terenak di udara",
+        "price": "7995",
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/id/f/f6/Klepon_Pelangi.jpg",
+        "authorId" : 2,
+        "categoryId" : 2,
+        "UserMongoId": "63fd271e4c7ad69fe0f71aac"
+      },
+      {
+        "name": "mi sedab",
+        "description": "makanan terenak di udara",
+        "price": "9533",
+        "imgUrl": "https://akcdn.detik.net.id/visual/2022/07/07/mie-sedap-2_169.jpeg?w=650",
+        "authorId" : 1,
+        "categoryId" : 2,
+        "UserMongoId": "63fd271e4c7ad69fe0f71aac" 
+      },
+      {
+        "name": "batagorrr",
+        "description": "makanan terenak di udara",
+        "price": "99055",
+        "imgUrl": "https://cdn1-production-images-kly.akamaized.net/_xvyGugO44abHizxfGjnIOFMqrA=/19x0:990x547/469x260/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3362810/original/000554800_1611896478-shutterstock_581142832.jpg",
+        "authorId" : 3,
+        "categoryId" : 3,
+        "UserMongoId": "63fd271e4c7ad69fe0f71aac" 
+
+      }
+  ],
+  "categories": [
+    {
+      "name": "sandwhich"
+    },
+    {
+      "name": "mie"
+    },
+    {
+      "name": "ayam"
+    }
+  ],
+  "ingredients": [
+    {
+      "itemId": 1,
+      "name": "tepung"
+    },
+    {
+      "itemId": 2,
+      "name": "daging"
+    },
+    {
+      "itemId": 3,
+      "name": "tahu"
+    },
+    {
+      "itemId": 3,
+      "name": "ayam"
+    }
+  ]
+}

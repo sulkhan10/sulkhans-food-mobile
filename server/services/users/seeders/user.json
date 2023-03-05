@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "username": "Pak Kades",
+    "email": "test1@mail.com",
+    "password": "123456",
+    "phoneNumber": "98099444",
+    "role": "admin",
+    "address": "Konoha"
+  },
+  {
+    "id": 2,
+    "username": "Pak Bina",
+    "email": "test2@mail.com",
+    "password": "123456",
+    "phoneNumber": "98098944",
+    "role": "admin",
+    "address": "Negara Api"
+  },
+  {
+    "id": 3,
+    "username": "John",
+    "email": "test3@mail.com",
+    "password": "123456",
+    "phoneNumber": "80989444",
+    "role": "admin",
+    "address": "Amegakure"
+  }
+]
